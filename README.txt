@@ -9,7 +9,7 @@ This is a chatbot made in python.
 
 2. Now install Wolframalpha dependency for running the Program, to install it simply go in CMD and type - 
 
-$ pip install wolframalpha
+`$ pip install wolframalpha`
 
 3. Done ! Now simply run the "main.py" file. You can further upgrade the program, by further adding commands.
 
