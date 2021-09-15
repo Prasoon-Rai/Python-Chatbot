@@ -10,7 +10,7 @@ def main_chat(query):
 while True:
     query = str(input('Question : '))
     res = client.query(query)
-    output = next(res.result).text
+    output = next(res.results).text
     print(output)
 
     main_chat(output)
