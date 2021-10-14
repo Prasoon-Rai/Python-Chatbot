@@ -8,5 +8,3 @@ while True:
     res = client.query(query)
     output = next(res.results).text
     print(output)
-
-    main_chat(output)
